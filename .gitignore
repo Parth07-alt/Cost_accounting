@@ -11,25 +11,25 @@ env/
 .venv/
 .env
 
-# ─── Trained model binaries (too large for GitHub) ──────────
-output/trained_model.pkl
-output/loss_classifier.pkl
-output/encoders.pkl
-
-# ─── Large generated CSVs / Excel reports ───────────────────
+# ─── Large generated CSVs / Excel reports (excluded) ────────
 output/enriched_bigmart.csv
 output/test_predictions.csv
 output/predictions.csv
 output/Retail_Cost_Profit_Report.xlsx
 output/loss_detection_report.csv
 
-# ─── Raw dataset folder (large CSVs) ────────────────────────
+# ─── Raw dataset folder (large, not needed for deployment) ──
 big mart dataset/
 
+# ─── Model files are INCLUDED (needed for Streamlit Cloud) ──
+# output/trained_model.pkl      ← tracked (41MB, under GitHub limit)
+# output/loss_classifier.pkl    ← tracked
+# output/encoders.pkl           ← tracked
+
 # ─── Keep small metrics / comparison CSVs (tracked) ─────────
-# output/model_metrics.csv        ← will be tracked
-# output/model_comparison.csv     ← will be tracked
-# output/feature_importance.csv   ← will be tracked
+# output/model_metrics.csv
+# output/model_comparison.csv
+# output/feature_importance.csv
 
 # ─── Jupyter / IDE ──────────────────────────────────────────
 .ipynb_checkpoints/
