@@ -1,0 +1,5 @@
+Model,Overall_R2,Overall_MAE,Loss_MAE,Loss_Rows_Total,Loss_Detected,Loss_Detection_%
+Baseline (no fix),0.5304,176.88,376.64,43,0,0.0
+Sample Weights (loss x20),0.523,177.8,362.47,43,0,0.0
+Oversampling (loss x20),0.5166,178.64,350.66,43,0,0.0
+Combined (Oversample + Weights),0.433,192.33,286.26,43,0,0.0

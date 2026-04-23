@@ -1,0 +1,6 @@
+Model,MAE,RMSE,R2
+Dummy Regressor (always predicts mean),292.54,391.69,-0.0031
+Linear Regression (assumes linear fit),174.25,264.17,0.5437
+"Decision Tree (single tree, depth=10)",193.59,302.11,0.4033
+Random Forest (OUR MODEL),176.88,268.01,0.5304
+Gradient Boosting (stronger ensemble),173.18,263.17,0.5472

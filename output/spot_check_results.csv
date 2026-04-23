@@ -1,0 +1,11 @@
+Item ID,Item Type,Outlet Type,Location,MRP,Sales,Actual Profit,Predicted Profit,Error (Rs),Error %
+FDU14,Dairy,Supermarket Type3,Tier 3,248.38,10236.67,2977.2,1554.01,1423.19,47.8
+DRJ51,Dairy,Supermarket Type1,Tier 2,231.17,7602.1,2860.43,1249.56,1610.88,56.3
+FDO37,Breakfast,Supermarket Type3,Tier 3,229.13,7393.04,2724.44,1112.45,1611.98,59.2
+FDB58,Snack Foods,Supermarket Type1,Tier 2,143.72,3119.94,-139.55,514.04,-653.59,-468.3
+FDI09,Seafood,Supermarket Type1,Tier 1,238.19,5033.45,-106.29,874.65,-980.94,-922.9
+FDY59,Baking Goods,Supermarket Type1,Tier 2,91.85,2313.66,-103.6,368.35,-471.95,-455.6
+FDP38,Canned,Supermarket Type1,Tier 1,50.6,404.81,16.26,89.55,-73.29,-450.7
+FDS27,Meat,Supermarket Type1,Tier 3,197.61,2553.34,218.07,395.33,-177.26,-81.3
+FDT24,Baking Goods,Supermarket Type1,Tier 2,78.73,1390.19,477.91,229.87,248.04,51.9
+FDL46,Snack Foods,Grocery Store,Tier 3,119.55,117.85,34.46,26.61,7.85,22.8
